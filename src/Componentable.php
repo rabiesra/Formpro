@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 namespace Collective\Html;
 
@@ -105,6 +105,6 @@ trait Componentable
             return $this->renderComponent($method, $parameters);
         }
 
-        throw new BadMethodCallException("Method {$method} does not exist.");
+        throw new BadMethodCallException("Method {$method} does not exist rabie eiditing .");
     }
 }
